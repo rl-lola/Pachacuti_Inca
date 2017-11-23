@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- RL_Inca_GameDefines -->
+<!-- Author: Rohan -->
+<!-- DateCreated: 11/17/2017 11:49:59 AM -->
+<GameData>
+	
+<!-- #Civilization -->
+	
+	<Types>
+		<Row>
+			<Type>CIVILIZATION_RL_INCA</Type>
+			<Kind>KIND_CIVILIZATION</Kind>
+		</Row>
+	</Types>
+
+	<Civilizations>
+		<Row>
+			<CivilizationType>CIVILIZATION_RL_INCA</CivilizationType>
+			<Name>LOC_CIVILIZATION_RL_INCA_NAME</Name>
+			<Description>LOC_CIVILIZATION_RL_INCA_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_RL_INCA_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+			<RandomCityNameDepth>23</RandomCityNameDepth>
+			<Ethnicity>ETHNICITY_SOUTHAM</Ethnicity>
+		</Row>
+	</Civilizations>
+	
+<!-- #Leader -->
+
+	<Types>
+		<Row>
+			<Type>LEADER_RL_PACHACUTI_CUSTOM</Type>
+			<Kind>KIND_LEADER</Kind>
+		</Row>
+	</Types>
+
+	<Leaders>
+		<Row>
+			<LeaderType>LEADER_RL_PACHACUTI_CUSTOM</LeaderType>
+			<Name>LOC_LEADER_RL_PACHACUTI_CUSTOM_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+			<SceneLayers>4</SceneLayers>
+		</Row>
+	</Leaders>
+	
+<!-- #Civ Leaders-->
+
+	<CivilizationLeaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_RL_INCA</CivilizationType>
+			<LeaderType>LEADER_RL_PACHACUTI_CUSTOM</LeaderType>
+			<CapitalName>LOC_CITY_NAME_RL_INCA_1</CapitalName>
+		</Row>
+	</CivilizationLeaders>
+	
+<!-- #Colors -->
+
+	<Colors>
+		<Row>
+			<Type>COLOR_PACHACUTI_PRIMARY</Type>
+			<!-- THIS IS THE COLOR OF THE BACKGROUND -->
+			<Color>235,180,54,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PACHACUTI_SECONDARY</Type>
+			<Color>64,160,99,255</Color>
+		</Row>
+	</Colors>
+	
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_RL_PACHACUTI_CUSTOM</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PACHACUTI_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PACHACUTI_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>	
+	
+<!-- #Traits -->
+	
+	<Types>
+		<Row>
+			<Type>TRAIT_RL_TERRACE_FARM</Type>
+			<Kind>KIND_TRAIT</Kind>
+		</Row>
+
+		<Row>
+			<Type>TRAIT_RL_ROAD_TO_MACHU_PICCHU</Type>
+			<Kind>KIND_TRAIT</Kind>
+		</Row>
+
+		<Row>
+			<Type>TRAIT_RL_YACHAYWASI</Type>
+			<Kind>KIND_TRAIT</Kind>
+		</Row>
+
+		<Row>
+			<Type>TRAIT_RL_ROADRUNNERS</Type>
+			<Kind>KIND_TRAIT</Kind>
+		</Row>
+	</Types>
+
+	<Traits>
+		<Row>
+			<TraitType>TRAIT_RL_TERRACE_FARM</TraitType>
+			<Name>LOC_TRAIT_RL_TERRACE_FARM_NAME</Name>
+			<Description>LOC_TRAIT_RL_TERRACE_FARM_DESCRIPTION</Description>
+		</Row>
+
+		<Row>
+			<TraitType>TRAIT_RL_ROAD_TO_MACHU_PICCHU</TraitType>
+			<Name>LOC_TRAIT_RL_ROAD_TO_MACHU_PICCHU_NAME</Name>
+			<Description>LOC_TRAIT_RL_ROAD_TO_MACHU_PICCHU_DESCRIPTION</Description>
+		</Row>
+
+		<Row>
+			<TraitType>TRAIT_RL_YACHAYWASI</TraitType>
+			<Name>LOC_TRAIT_RL_YACHAYWASI_NAME</Name>
+			<Description>LOC_TRAIT_RL_YACHAYWASI_DESCRIPTION</Description>
+		</Row>
+
+		<Row>
+			<TraitType>TRAIT_RL_ROADRUNNERS</TraitType>
+			<Name>LOC_TRAIT_RL_ROADRUNNERS_NAME</Name>
+			<Description>LOC_TRAIT_RL_ROADRUNNERS_DESCRIPTION</Description>
+		</Row>
+	</Traits>
+	
+	
+<!-- #Leader Traits-->
+
+	<LeaderTraits>
+		<Row>
+			<LeaderType>LEADER_RL_PACHACUTI_CUSTOM</LeaderType>
+			<TraitType>TRAIT_RL_ROAD_TO_MACHU_PICCHU</TraitType>
+		</Row>
+	</LeaderTraits>
+
+<!-- #Civilization Traits-->
+
+	<CivilizationTraits>
+		<Row>
+			<CivilizationType>CIVILIZATION_RL_INCA</CivilizationType>
+			<TraitType>TRAIT_RL_TERRACE_FARM</TraitType>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_RL_INCA</CivilizationType>
+			<TraitType>TRAIT_RL_YACHAYWASI</TraitType>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_RL_INCA</CivilizationType>
+			<TraitType>TRAIT_RL_ROADRUNNERS</TraitType>
+		</Row>
+	</CivilizationTraits>
+	
+<!-- #Start Biases-->
+
+	<StartBiasTerrains>
+		<Row>
+			<CivilizationType>CIVILIZATION_RL_INCA</CivilizationType>
+			<TerrainType>TERRAIN_GRASS_MOUNTAIN</TerrainType>
+			<Tier>3</Tier>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_RL_INCA</CivilizationType>
+			<TerrainType>TERRAIN_PLAINS_MOUNTAIN</TerrainType>
+			<Tier>2</Tier>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_RL_INCA</CivilizationType>
+			<TerrainType>TERRAIN_PLAINS_HILLS</TerrainType>
+			<Tier>5</Tier>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_RL_INCA</CivilizationType>
+			<TerrainType>TERRAIN_GRASS_HILLS</TerrainType>
+			<Tier>5</Tier>
+		</Row>
+	</StartBiasTerrains>
+	
+<!--#Loading/Diplo Info-->
+	<LoadingInfo>
+		<Row>
+			<LeaderType>LEADER_RL_PACHACUTI_CUSTOM</LeaderType>
+			<BackgroundImage>BACKGROUND_RL_INCA_LOADING</BackgroundImage>
+			<ForegroundImage>LEADER_RL_PACHACUTI_CUSTOM_LOADING</ForegroundImage>
+			<PlayDawnOfManAudio>0</PlayDawnOfManAudio>
+		</Row>
+	</LoadingInfo>
+
+	<DiplomacyInfo>
+		<Row>
+			<Type>LEADER_RL_PACHACUTI_CUSTOM</Type>
+			<BackgroundImage>BACKGROUND_RL_INCA_DIPLO.dds</BackgroundImage>
+		</Row>
+	</DiplomacyInfo>
+
+<!-- #Pedia info-->
+	<CivilizationInfo>
+		<Row>
+			<CivilizationType>CIVILIZATION_RL_INCA</CivilizationType>
+			<Header>LOC_CIVINFO_LOCATION</Header>
+			<Caption>LOC_CIVINFO_RL_INCA_LOCATION</Caption>
+			<SortIndex>10</SortIndex>
+			
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_RL_INCA</CivilizationType>
+			<Header>LOC_CIVINFO_SIZE</Header>
+			<Caption>LOC_CIVINFO_RL_INCA_SIZE</Caption>
+			<SortIndex>20</SortIndex>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_RL_INCA</CivilizationType>
+			<Header>LOC_CIVINFO_POPULATION</Header>
+			<Caption>LOC_CIVINFO_RL_INCA_POPULATION</Caption>
+			<SortIndex>30</SortIndex>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_RL_INCA</CivilizationType>
+			<Header>LOC_CIVINFO_CAPITAL</Header>
+			<Caption>LOC_CIVINFO_RL_INCA_CAPITAL</Caption>
+			<SortIndex>40</SortIndex>
+		</Row>
+	</CivilizationInfo>
+	
+<!--#Agendas-->
+	<HistoricalAgendas>
+		<Row>
+			<LeaderType>LEADER_RL_PACHACUTI_CUSTOM</LeaderType>
+			<AgendaType>AGENDA_TECHNOPHILE</AgendaType>
+		</Row>
+	</HistoricalAgendas>
+</GameData>

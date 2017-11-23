@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- RL_Terrace_Farm -->
+<!-- Author: Rohan -->
+<!-- DateCreated: 11/17/2017 2:06:27 PM -->
+<GameData>
+
+	<Types>
+		<Row>
+			<Type>IMPROVEMENT_RL_TERRACE_FARM</Type>
+			<Kind>KIND_IMPROVEMENT</Kind>
+		</Row>
+	</Types>
+	
+	<Improvements>
+		<Row>
+			<ImprovementType>IMPROVEMENT_RL_TERRACE_FARM</ImprovementType>
+			<Name>LOC_IMPROVEMENT_RL_TERRACE_FARM_NAME</Name>
+			<Description>LOC_IMPROVEMENT_RL_TERRACE_FARM_DESCRIPTION</Description>
+			<PrereqTech>TECH_IRRIGATION</PrereqTech>
+			<PlunderType>PLUNDER_HEAL</PlunderType>
+			<PlunderAmount>50</PlunderAmount>
+			<Icon>ICON_IMPROVEMENT_RL_TERRACE_FARM</Icon>
+			<TraitType>TRAIT_RL_TERRACE_FARM</TraitType>
+			<Housing>1</Housing>
+			<TilesRequired>2</TilesRequired>
+		</Row>
+	</Improvements>
+
+	<Improvement_YieldChanges>
+		<Row>
+			<ImprovementType>IMPROVEMENT_RL_TERRACE_FARM</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+
+		<Row>
+			<ImprovementType>IMPROVEMENT_RL_TERRACE_FARM</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>0</YieldChange>
+		</Row>
+	</Improvement_YieldChanges>
+
+	<Improvement_Adjacencies>
+		<Row>
+			<ImprovementType>IMPROVEMENT_RL_TERRACE_FARM</ImprovementType>
+			<YieldChangeId>TerraceFarms_GrassMountainFood</YieldChangeId>
+		</Row>
+
+		<Row>
+			<ImprovementType>IMPROVEMENT_RL_TERRACE_FARM</ImprovementType>
+			<YieldChangeId>TerraceFarms_PlainsMountainFood</YieldChangeId>
+		</Row>
+
+		<Row>
+			<ImprovementType>IMPROVEMENT_RL_TERRACE_FARM</ImprovementType>
+			<YieldChangeId>TerraceFarms_TundraMountainFood</YieldChangeId>
+		</Row>
+
+		<Row>
+			<ImprovementType>IMPROVEMENT_RL_TERRACE_FARM</ImprovementType>
+			<YieldChangeId>TerraceFarms_DesertMountainFood</YieldChangeId>
+		</Row>
+
+		<Row>
+			<ImprovementType>IMPROVEMENT_RL_TERRACE_FARM</ImprovementType>
+			<YieldChangeId>TerraceFarms_SnowMountainFood</YieldChangeId>
+		</Row>
+
+		<Row>
+			<ImprovementType>IMPROVEMENT_RL_TERRACE_FARM</ImprovementType>
+			<YieldChangeId>TerraceFarms_GrassMountainCulture</YieldChangeId>
+		</Row>
+
+		<Row>
+			<ImprovementType>IMPROVEMENT_RL_TERRACE_FARM</ImprovementType>
+			<YieldChangeId>TerraceFarms_PlainsMountainCulture</YieldChangeId>
+		</Row>
+
+		<Row>
+			<ImprovementType>IMPROVEMENT_RL_TERRACE_FARM</ImprovementType>
+			<YieldChangeId>TerraceFarms_TundraMountainCulture</YieldChangeId>
+		</Row>
+
+		<Row>
+			<ImprovementType>IMPROVEMENT_RL_TERRACE_FARM</ImprovementType>
+			<YieldChangeId>TerraceFarms_DesertMountainCulture</YieldChangeId>
+		</Row>
+
+		<Row>
+			<ImprovementType>IMPROVEMENT_RL_TERRACE_FARM</ImprovementType>
+			<YieldChangeId>TerraceFarms_SnowMountainCulture</YieldChangeId>
+		</Row>
+	</Improvement_Adjacencies>
+
+	<Adjacency_YieldChanges>
+		
+<!--#Food -->
+		
+		<Row>
+			<ID>TerraceFarms_GrassMountainFood</ID> 
+			<Description>Placeholder</Description>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>1</YieldChange>
+			<TilesRequired>1</TilesRequired>
+			<AdjacentTerrain>TERRAIN_GRASS_MOUNTAIN</AdjacentTerrain>
+		</Row>
+
+		<Row>
+			<ID>TerraceFarms_PlainsMountainFood</ID>
+			<Description>Placeholder</Description>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>1</YieldChange>
+			<TilesRequired>1</TilesRequired>
+			<AdjacentTerrain>TERRAIN_PLAINS_MOUNTAIN</AdjacentTerrain>
+		</Row>
+
+		<Row>
+			<ID>TerraceFarms_TundraMountainFood</ID> 
+			<Description>Placeholder</Description>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>1</YieldChange>
+			<TilesRequired>1</TilesRequired>
+			<AdjacentTerrain>TERRAIN_TUNDRA_MOUNTAIN</AdjacentTerrain>
+		</Row>
+
+		<Row>
+			<ID>TerraceFarms_DesertMountainFood</ID> 
+			<Description>Placeholder</Description>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>1</YieldChange>
+			<TilesRequired>1</TilesRequired>
+			<AdjacentTerrain>TERRAIN_DESERT_MOUNTAIN</AdjacentTerrain>
+		</Row>
+
+		<Row>
+			<ID>TerraceFarms_SnowMountainFood</ID> 
+			<Description>Placeholder</Description>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>1</YieldChange>
+			<TilesRequired>1</TilesRequired>
+			<AdjacentTerrain>TERRAIN_SNOW_MOUNTAIN</AdjacentTerrain>
+		</Row>
+
+<!-- #Culture -->
+
+		<Row>
+			<ID>TerraceFarms_GrassMountainCulture</ID> 
+			<Description>Placeholder</Description>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>1</YieldChange>
+			<TilesRequired>1</TilesRequired>
+			<AdjacentTerrain>TERRAIN_GRASS_MOUNTAIN</AdjacentTerrain>
+			<PrereqCivic>CIVIC_NATURAL_HISTORY</PrereqCivic>
+		</Row>
+
+		<Row>
+			<ID>TerraceFarms_PlainsMountainCulture</ID>
+			<Description>Placeholder</Description>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>1</YieldChange>
+			<TilesRequired>1</TilesRequired>
+			<AdjacentTerrain>TERRAIN_PLAINS_MOUNTAIN</AdjacentTerrain>
+			<PrereqCivic>CIVIC_NATURAL_HISTORY</PrereqCivic>
+		</Row>
+
+		<Row>
+			<ID>TerraceFarms_TundraMountainCulture</ID>
+			<Description>Placeholder</Description>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>1</YieldChange>
+			<TilesRequired>1</TilesRequired>
+			<AdjacentTerrain>TERRAIN_TUNDRA_MOUNTAIN</AdjacentTerrain>
+			<PrereqCivic>CIVIC_NATURAL_HISTORY</PrereqCivic>
+		</Row>
+
+		<Row>
+			<ID>TerraceFarms_DesertMountainCulture</ID> 
+			<Description>Placeholder</Description>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>1</YieldChange>
+			<TilesRequired>1</TilesRequired>
+			<AdjacentTerrain>TERRAIN_DESERT_MOUNTAIN</AdjacentTerrain>
+			<PrereqCivic>CIVIC_NATURAL_HISTORY</PrereqCivic>
+		</Row>
+
+		<Row>
+			<ID>TerraceFarms_SnowMountainCulture</ID>
+			<Description>Placeholder</Description>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>1</YieldChange>
+			<TilesRequired>1</TilesRequired>
+			<AdjacentTerrain>TERRAIN_SNOW_MOUNTAIN</AdjacentTerrain>
+			<PrereqCivic>CIVIC_NATURAL_HISTORY</PrereqCivic>
+		</Row>
+	</Adjacency_YieldChanges>
+
+	<Improvement_BonusYieldChanges>
+		<Row>
+			<ImprovementType>IMPROVEMENT_RL_TERRACE_FARM</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<BonusYieldChange>1</BonusYieldChange>
+			<PrereqCivic>CIVIC_CIVIL_ENGINEERING</PrereqCivic>
+		</Row>
+	</Improvement_BonusYieldChanges>
+
+	<Improvement_ValidTerrains>
+		<Row>
+			<ImprovementType>IMPROVEMENT_RL_TERRACE_FARM</ImprovementType>
+			<TerrainType>TERRAIN_PLAINS_HILLS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_RL_TERRACE_FARM</ImprovementType>
+			<TerrainType>TERRAIN_GRASS_HILLS</TerrainType>
+		</Row>
+	</Improvement_ValidTerrains>
+
+	<Improvement_ValidBuildUnits>
+		<Row>
+			<ImprovementType>IMPROVEMENT_RL_TERRACE_FARM</ImprovementType>
+			<UnitType>UNIT_BUILDER</UnitType>
+		</Row>
+	</Improvement_ValidBuildUnits>
+</GameData>

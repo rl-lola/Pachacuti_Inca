@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+
+	<LocalizedText>
+		
+<!-- #Civilization-->
+
+		<Row Tag="LOC_CIVILIZATION_RL_INCA_NAME" Language="en_US">
+			<Text>Inca</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_RL_INCA_DESCRIPTION" Language="en_US">
+			<Text>The Inca Empire</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_RL_INCA_ADJECTIVE" Language="en_US">
+			<Text>Inca</Text>
+		</Row>
+		
+<!--#Civilopedia-->
+
+		<Row Tag="LOC_CIVINFO_RL_INCA_LOCATION" Language="en_US">
+			<Text>Central America</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_RL_INCA_POPULATION" Language="en_US">
+			<Text>~12,000,000</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_RL_INCA_SIZE" Language="en_US">
+			<Text>~2,000,000 square kilometers</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_RL_INCA_CAPITAL" Language="en_US">
+			<Text>Cusco</Text>
+		</Row>
+		
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_RL_INCA_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>
+				The largest Pre-Columbian empire in the Americas, the Incan Empire stretched from Peru to Chile along the Andes Mountains. This grand empire had humble beginnings in one small kingdom, but grew to dominate the whole of "civilized" South America. While the empire only lasted for one brief century, it did much to unify the people and culture of the different tribes living on the mountain tops. Despite the Inca's near and complete annihilation, many artifacts and physical structures still stand, such as the famed Machu Picchu, a testament of the power once wielded by the Incan kings.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_RL_INCA_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_RL_INCA_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_RL_INCA_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text></Text>
+		</Row>
+		
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_RL_PACHACUTI_CUSTOM_TITLE" Language="en_US">
+			<Text>Pachacuti</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_RL_PACHACUTI_CUSTOM_SUBTITLE" Language="en_US">
+			<Text>Sapa Inca</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_RL_PACHACUTI_CUSTOM_QUOTE" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_RL_PACHACUTI_CUSTOM_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>
+				"He who overturns space and time" - The Quechua translation of Pachakutiq. Pachacuti was the ninth Sapa of Cuzco. Under Pachacuti's rule, Cuzco saw immense growth. He saw it become an empire almost unrivalled in size, and through conquest, laid claim to almost the entirety of the west of the South American continent.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_RL_PACHACUTI_CUSTOM_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_RL_PACHACUTI_CUSTOM_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_RL_PACHACUTI_CUSTOM_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_RL_PACHACUTI_CUSTOM_CHAPTER_HISTORY_PARA_5" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_RL_PACHACUTI_CUSTOM_CHAPTER_HISTORY_PARA_6" Language="en_US">
+			<Text></Text>
+		</Row>
+		
+		<!-- #Pedia Yachaywasi #Pedia Terrace Farm-->
+
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_RL_YACHAYWASI_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>
+				Yachaywasi, or, "Houses of Knowledge", were centres of learning for noble children of the Inca empire. Within, students learned of morals, religion, government, as well as typical academic pursuits and philosophy. In addition, students received physical and military training.
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_RL_TERRACE_FARM_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>
+				The mountain-borne Inca people adapted to their land in a simultaneously impressive and beautiful way. By slicing hills into terraces, flat land was created, on which crops could be planted. 
+			</Text>
+		</Row>
+		
+<!--#Cities-->
+
+		<Row Tag="LOC_CITY_NAME_RL_INCA_1" Language="en_US">
+			<Text>Cuzco</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RL_INCA_2" Language="en_US">
+			<Text>Ollantaytambo</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RL_INCA_3" Language="en_US">
+			<Text>Pisac</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RL_INCA_4" Language="en_US">
+			<Text>Chan Chan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RL_INCA_5" Language="en_US">
+			<Text>Quito</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RL_INCA_6" Language="en_US">
+			<Text>Maras</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RL_INCA_7" Language="en_US">
+			<Text>Vilcashuaman</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RL_INCA_8" Language="en_US">
+			<Text>Chancay</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RL_INCA_9" Language="en_US">
+			<Text>Tumebamba</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RL_INCA_10" Language="en_US">
+			<Text>Cajamarca</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RL_INCA_11" Language="en_US">
+			<Text>Huanuco</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RL_INCA_12" Language="en_US">
+			<Text>Pachacamac</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RL_INCA_13" Language="en_US">
+			<Text>Machu Picchu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RL_INCA_14" Language="en_US">
+			<Text>Inkawasi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RL_INCA_15" Language="en_US">
+			<Text>Ichu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RL_INCA_16" Language="en_US">
+			<Text>Corihuayrachina</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RL_INCA_17" Language="en_US">
+			<Text>Vilcabamba</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RL_INCA_18" Language="en_US">
+			<Text>Vitcos</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RL_INCA_19" Language="en_US">
+			<Text>Ica</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RL_INCA_20" Language="en_US">
+			<Text>Tiwanaku</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RL_INCA_21" Language="en_US">
+			<Text>Andahuaylas</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RL_INCA_22" Language="en_US">
+			<Text>Chuito</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RL_INCA_23" Language="en_US">
+			<Text>Huaras</Text>
+		</Row>
+		
+<!--#Citizens-->
+
+		<Row Tag="LOC_CITIZEN_RL_INCA_MALE_1" Language="en_US">
+			<Text>Catequil</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_RL_INCA_MALE_2" Language="en_US">
+			<Text>Cachi</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_RL_INCA_MALE_3" Language="en_US">
+			<Text>Acahuana</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_RL_INCA_MALE_4" Language="en_US">
+			<Text>Ilyapa</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_RL_INCA_MALE_5" Language="en_US">
+			<Text>Maita</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_RL_INCA_MODERN_MALE_1" Language="en_US">
+			<Text>Pacari</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_RL_INCA_MODERN_MALE_2" Language="en_US">
+			<Text>Supay</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_RL_INCA_MODERN_MALE_3" Language="en_US">
+			<Text>Thonapa</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_RL_INCA_MODERN_MALE_4" Language="en_US">
+			<Text>Titu</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_RL_INCA_MODERN_MALE_5" Language="en_US">
+			<Text>Viracocha</Text>
+		</Row>
+
+		<Row Tag="LOC_CITIZEN_RL_INCA_FEMALE_1" Language="en_US">
+			<Text>Axomamma</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_RL_INCA_FEMALE_2" Language="en_US">
+			<Text>Cavillaca</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_RL_INCA_FEMALE_3" Language="en_US">
+			<Text>Chasca</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_RL_INCA_FEMALE_4" Language="en_US">
+			<Text>Copacati</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_RL_INCA_FEMALE_5" Language="en_US">
+			<Text>Cocomama</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_RL_INCA_MODERN_FEMALE_1" Language="en_US">
+			<Text>Allpa</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_RL_INCA_MODERN_FEMALE_2" Language="en_US">
+			<Text>Quinuama</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_RL_INCA_MODERN_FEMALE_3" Language="en_US">
+			<Text>Si</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_RL_INCA_MODERN_FEMALE_4" Language="en_US">
+			<Text>Urpihua</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_RL_INCA_MODERN_FEMALE_5" Language="en_US">
+			<Text>Zaramamma</Text>
+		</Row>
+		
+<!--#Leader-->
+		<Row Tag="LOC_LEADER_RL_PACHACUTI_CUSTOM_NAME" Language="en_US">
+			<Text>Pachacuti</Text>
+		</Row>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_RL_PACHACUTI_CUSTOM" Language="en_US">
+			<Text>The Inca Empire, also known as the Incan Empire and the Inka Empire, was the largest empire in pre-Columbian America, and possibly the largest empire in the world in the early 16th century. The political and administrative structure "was the most sophisticated found among native peoples" in the Americas. The administrative, political and military center of the empire was located in Cusco in modern-day Peru. The Inca civilization arose from the highlands of Peru sometime in the early 13th century. Its last stronghold was conquered by the Spanish in 1572.</Text>
+		</Row>
+		
+<!--#Diplomacy-->
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_RL_PACHACUTI_CUSTOM_ANY" Language="en_US">
+			<Text>Pachacuti greets you. Do you come as friend, or foe?</Text>
+		</Row>
+		<!--AI invitation to visit nearby City-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_RL_PACHACUTI_CUSTOM_ANY" Language="en_US">
+			<Text>Come, see our land. You will find our landscapes to be beautiful and inviting.</Text>
+		</Row>
+		<!--AI accepts Human invitation-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_RL_PACHACUTI_CUSTOM_ANY" Language="en_US">
+			<Text>We would see your land.</Text>
+		</Row>
+		<!--AI invitation to exchange Capital Information-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_RL_PACHACUTI_CUSTOM_ANY" Language="en_US">
+			<Text>Shall we exchange information on our capitals?</Text>
+		</Row>
+		<!--GREETINGS-->
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_RL_PACHACUTI_CUSTOM_ANY" Language="en_US">
+			<Text>Why have you come?</Text>
+		</Row>
+		<!--DELEGATION-->
+		<!--AI Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_RL_PACHACUTI_CUSTOM_ANY" Language="en_US">
+			<Text>May Inti bless you.</Text>
+		</Row>
+		<!--AI Rejects-->
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_RL_PACHACUTI_CUSTOM_ANY" Language="en_US">
+			<Text>I cannot agree to this.</Text>
+		</Row>
+		<!--AI Requests -->
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_RL_PACHACUTI_CUSTOM_ANY" Language="en_US">
+			<Text>I have sent a diplomatic delegation to your capital. To refuse would be unwise.</Text>
+		</Row>
+		<!--OPEN BORDERS-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_RL_PACHACUTI_CUSTOM_ANY" Language="en_US">
+			<Text>I will allow it.</Text>
+		</Row>
+		<!--AI rejects from human-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_RL_PACHACUTI_CUSTOM_ANY" Language="en_US">
+			<Text>No. </Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_RL_PACHACUTI_CUSTOM_ANY" Language="en_US">
+			<Text>We would travel through your land, if you would allow it.</Text>
+		</Row>
+		<!--DECLARE FRIENDSHIP-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_RL_PACHACUTI_CUSTOM_ANY" Language="en_US">
+			<Text>Friends, then.</Text>
+		</Row>
+		<!--AI Rejects from human -->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_RL_PACHACUTI_CUSTOM_ANY" Language="en_US">
+			<Text>Another time, I think.</Text>
+		</Row>
+		<!--AI Requests friendship from human-->
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_RL_PACHACUTI_CUSTOM_ANY" Language="en_US">
+			<Text>Come, let us tell the world of our friendship.</Text>
+		</Row>
+		<!--Human accepts AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_RL_PACHACUTI_CUSTOM_ANY" Language="en_US">
+			<Text>Very good.</Text>
+		</Row>
+		<!--Human rejects AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_RL_PACHACUTI_CUSTOM_ANY" Language="en_US">
+			<Text>...</Text>
+		</Row>
+		<!--ALLIANCE-->
+		<!--AI Requests an alliance from human-->
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_RL_PACHACUTI_CUSTOM_ANY" Language="en_US">
+			<Text>Ally yourself to us - you know it is in your best interests.</Text>
+		</Row>
+		<!--KUDOS & WARNINGS-->
+		<!--AI Kudos-->
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_RL_PACHACUTI_CUSTOM_ANY" Language="en_US">
+			<Text>We learn from your ways.</Text>
+		</Row>
+		<!--AI Warnings-->
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_RL_PACHACUTI_CUSTOM_ANY" Language="en_US">
+			<Text>Know that our eyes are upon you. </Text>
+		</Row>
+		<!--AI warns player for border troops-->
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_RL_PACHACUTI_CUSTOM_ANY" Language="en_US">
+			<Text>You would be wise to remove your army from our borders.</Text>
+		</Row>
+		<!--TRADE-->
+		<!--AI Accepts Deal-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_RL_PACHACUTI_CUSTOM_ANY" Language="en_US">
+			<Text>It is done, then.</Text>
+		</Row>
+		<!--AI Rejects Deal-->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_RL_PACHACUTI_CUSTOM_ANY" Language="en_US">
+			<Text>No.</Text>
+		</Row>
+		<!--DENOUNCE-->
+		<!--From Human-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_RL_PACHACUTI_CUSTOM_ANY" Language="en_US">
+			<Text>You think this has meaning? Go home, little one.</Text>
+		</Row>
+		<!--From AI-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_RL_PACHACUTI_CUSTOM_ANY" Language="en_US">
+			<Text>Our wrath can only be avoided for so long. You would be wise to prepare yourself (Denounces You)</Text>
+		</Row>
+		<!--DECLARE WAR-->
+		<!--Human Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_RL_PACHACUTI_CUSTOM_ANY" Language="en_US">
+			<Text>It's war, then. So be it.</Text>
+		</Row>
+		<!--AI Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_RL_PACHACUTI_CUSTOM_ANY" Language="en_US">
+			<Text>You knew this was coming. I hope for your sake you have prepared yourself - it would be dull to fight an unworthy foe.</Text>
+		</Row>
+		<!--MAKE PEACE-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_RL_PACHACUTI_CUSTOM_ANY" Language="en_US">
+			<Text>We will show mercy - for now.</Text>
+		</Row>
+		<!--AI refuses human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_RL_PACHACUTI_CUSTOM_ANY" Language="en_US">
+			<Text>I would see you die, first.</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_RL_PACHACUTI_CUSTOM_ANY" Language="en_US">
+			<Text>Let us negotiate peace.</Text>
+		</Row>
+		<!--DEFEAT-->
+		<!--AI is Defeated-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_RL_PACHACUTI_CUSTOM_ANY" Language="en_US">
+			<Text>Victory, well deserved. Our bodies lie still, but our spirits yet soar.</Text>
+		</Row>
+		<!--Human is Defeated (will see this in hotseat)-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_RL_PACHACUTI_CUSTOM_ANY" Language="en_US">
+			<Text>Rekt.</Text>
+		</Row>
+		
+<!--#Traits-->
+
+		<Row Tag="LOC_TRAIT_RL_ROAD_TO_MACHU_PICCHU_NAME" Language="en_US">
+			<Text>Road to Machu Picchu</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_RL_ROAD_TO_MACHU_PICCHU_DESCRIPTION" Language="en_US">
+			<Text>Civilian units gain +3 [ICON_Movement] Movement when starting in friendly territory.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_RL_ROADRUNNERS_NAME" Language="en_US">
+			<Text>Roadrunners</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_RL_ROADRUNNERS_DESCRIPTION" Language="en_US">
+			<Text>Trade Routes to your own cities provide +1 [ICON_SCIENCE] Science for each Specialty District at the destination. +1 [ICON_TradeRoute] Trade Route capacity upon researching Construction.</Text>
+		</Row>
+		
+<!--#Yachaywasi Building-->
+
+		<Row Tag="LOC_BUILDING_RL_YACHAYWASI_NAME" Language="en_US">
+			<Text>Yachaywasi</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_RL_YACHAYWASI_DESCRIPTION" Language="en_US">
+			<Text>Unique Library replacement for the Inca. In addition to the standard [ICON_SCIENCE] Science, also provides +2 [ICON_FAITH] Faith and +1 [ICON_GreatGeneral] Great General points per turn.</Text>
+		</Row>
+		
+<!--#Terrace Farm Improvement-->
+
+		<Row Tag="LOC_IMPROVEMENT_RL_TERRACE_FARM_NAME" Language="en_US">
+			<Text>Terrace Farm</Text>
+		</Row>
+
+		<Row Tag="LOC_IMPROVEMENT_RL_TERRACE_FARM_DESCRIPTION" Language="en_US">
+			<Text>Unique Tile Improvement for the Inca, available upon researching Irrigation. Provides +1 [ICON_FOOD] Food, and additional [ICON_FOOD] Food from each adjacent mountain. Provides [ICON_CULTURE] Culture from adjacent mountains upon researching Natural History.</Text>
+		</Row>
+		
+		<Replace Tag="LOC_CIVIC_CIVIL_ENGINEERING_DESCRIPTION" Language="en_US">
+			<Text>Can build Farms on Grassland Hills and Plains Hills. +1 [ICON_Food] Food from Terrace Farms.</Text>
+		</Replace>
+
+	</LocalizedText>
+
+</GameData>

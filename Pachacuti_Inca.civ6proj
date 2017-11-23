@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Pachacuti's Inca</Name>
+    <Guid>41634df5-12a8-4d7e-8c4f-43f77ca8c54e</Guid>
+    <ProjectGuid>47abbc0b-9c5b-4c38-97dc-0c024e95e16d</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Adds the Inca, led by Pachacuti, to Civilization 6.</Teaser>
+    <Description>Adds the Inca, led by Pachacuti, to Civilization 6.</Description>
+    <Authors>Rohan</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <AssemblyName>Pachacuti_Inca</AssemblyName>
+    <RootNamespace>Pachacuti_Inca</RootNamespace>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="config"><File>Core/RL_Inca_Config.xml</File></UpdateDatabase><UpdateIcons id="icons"><File>Core/RL_Inca_Icons.xml</File></UpdateIcons><UpdateArt id="update art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateText id="text"><File>Core/RL_GameText.xml</File><File>Core/RL_Append_Descriptions.sql</File></UpdateText></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="GameDefines"><File>Core/RL_Inca_GameDefines.xml</File><File>Core/RL_Inca_CityandCivNames.sql</File></UpdateDatabase><UpdateDatabase id="Roadrunners"><File>Core/RL_Roadrunners.xml</File></UpdateDatabase><UpdateDatabase id="TerraceFarms"><File>Core/RL_Terrace_Farm.xml</File></UpdateDatabase><UpdateDatabase id="RoadToMachuPicchu"><File>Core/RL_RoadToMachuPicchu.xml</File></UpdateDatabase><UpdateDatabase id="Yachaywasi"><File>Core/RL_Yachaywasi.xml</File></UpdateDatabase><UpdateIcons id="Icons"><File>Core/RL_Inca_Icons.xml</File></UpdateIcons><UpdateArt id="art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateText id="text"><File>Core/RL_GameText.xml</File><File>Core/RL_Append_Descriptions.sql</File></UpdateText></InGameActions>]]></InGameActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Mod.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\" />
+    <Folder Include="Core" />
+    <Folder Include="ArtDefs" />
+    <Folder Include="Geometries\" />
+    <Folder Include="XLPs" />
+    <Folder Include="Textures" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ArtDefs\Buildings.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Civilizations.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Cultures.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Improvements.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Landmarks.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Leaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\LeaderFallbacks.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_CMP_BUILDING_RL_YACHAYWASI.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\IMP_RL_Terrace_Farm_2.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\IMP_RL_Terrace_Farm_3.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\IMP_RL_Terrace_Farm_4.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\RL_GameText.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\RL_Inca_CityandCivNames.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\RL_Inca_Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\RL_Roadrunners.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\RL_RoadToMachuPicchu.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\RL_Terrace_Farm.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\RL_Inca_GameDefines.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\RL_Inca_Config.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\RL_Yachaywasi.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\BACKGROUND_RL_INCA_DIPLO.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\BACKGROUND_RL_INCA_DIPLO.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\BACKGROUND_RL_INCA_LOADING.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\BACKGROUND_RL_INCA_LOADING.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_BUILDING_RL_YACHAYWASI.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_BUILDING_RL_YACHAYWASI.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_BUILDING_RL_YACHAYWASI_38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_BUILDING_RL_YACHAYWASI_38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_BUILDING_RL_YACHAYWASI_45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_BUILDING_RL_YACHAYWASI_45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_BUILDING_RL_YACHAYWASI_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_BUILDING_RL_YACHAYWASI_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_INCA.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_INCA.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_INCA_200.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_INCA_200.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_INCA_22.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_INCA_22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_INCA_30.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_INCA_30.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_INCA_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_INCA_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_INCA_36.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_INCA_36.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_INCA_44.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_INCA_44.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_INCA_48.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_INCA_48.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_INCA_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_INCA_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_INCA_64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_INCA_64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_INCA_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_INCA_80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_INCA_COLOR.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_INCA_COLOR.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_IMPROVEMENT_RL_TERRACE_FARM_128.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_IMPROVEMENT_RL_TERRACE_FARM_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_IMPROVEMENT_RL_TERRACE_FARM_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_IMPROVEMENT_RL_TERRACE_FARM_128.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_IMPROVEMENT_RL_TERRACE_FARM_30.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_IMPROVEMENT_RL_TERRACE_FARM_30.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_IMPROVEMENT_RL_TERRACE_FARM_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_IMPROVEMENT_RL_TERRACE_FARM_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_IMPROVEMENT_RL_TERRACE_FARM_38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_IMPROVEMENT_RL_TERRACE_FARM_38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_IMPROVEMENT_RL_TERRACE_FARM_44.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_IMPROVEMENT_RL_TERRACE_FARM_44.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_IMPROVEMENT_RL_TERRACE_FARM_45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_IMPROVEMENT_RL_TERRACE_FARM_45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_IMPROVEMENT_RL_TERRACE_FARM_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_IMPROVEMENT_RL_TERRACE_FARM_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_IMPROVEMENT_RL_TERRACE_FARM_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_IMPROVEMENT_RL_TERRACE_FARM_80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_RL_PACHACUTI_CUSTOM.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_RL_PACHACUTI_CUSTOM.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_RL_PACHACUTI_CUSTOM_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_RL_PACHACUTI_CUSTOM_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_RL_PACHACUTI_CUSTOM_45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_RL_PACHACUTI_CUSTOM_45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_RL_PACHACUTI_CUSTOM_48.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_RL_PACHACUTI_CUSTOM_48.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_RL_PACHACUTI_CUSTOM_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_RL_PACHACUTI_CUSTOM_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_RL_PACHACUTI_CUSTOM_64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_RL_PACHACUTI_CUSTOM_64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_RL_PACHACUTI_CUSTOM_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_RL_PACHACUTI_CUSTOM_80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_RL_PACHACUTI_CUSTOM.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_RL_PACHACUTI_CUSTOM.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_RL_PACHACUTI_CUSTOM_LOADING.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_RL_PACHACUTI_CUSTOM_LOADING.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\Tilebases.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\Icons.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\LeaderBackgrounds.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\LeaderFallbacks.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\UILeaders.xlp">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

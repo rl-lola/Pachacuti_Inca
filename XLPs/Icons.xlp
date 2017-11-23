@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="Icons"/>
+	<m_Entries>
+		
+<!-- #Building -->
+		
+		<Element>
+			<m_EntryID text="ICON_BUILDING_RL_YACHAYWASI"/>
+			<m_ObjectName text="ICON_BUILDING_RL_YACHAYWASI"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_RL_YACHAYWASI_45"/>
+			<m_ObjectName text="ICON_BUILDING_RL_YACHAYWASI_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_RL_YACHAYWASI_38"/>
+			<m_ObjectName text="ICON_BUILDING_RL_YACHAYWASI_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_RL_YACHAYWASI_50"/>
+			<m_ObjectName text="ICON_BUILDING_RL_YACHAYWASI_50"/>
+		</Element>
+		
+		
+<!--#Civilization-->
+			
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_RL_INCA"/>
+			<m_ObjectName text="ICON_CIVILIZATION_RL_INCA"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_RL_INCA_COLOR"/>
+			<m_ObjectName text="ICON_CIVILIZATION_RL_INCA_COLOR"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_RL_INCA_200"/>
+			<m_ObjectName text="ICON_CIVILIZATION_RL_INCA_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_RL_INCA_80"/>
+			<m_ObjectName text="ICON_CIVILIZATION_RL_INCA_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_RL_INCA_64"/>
+			<m_ObjectName text="ICON_CIVILIZATION_RL_INCA_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_RL_INCA_50"/>
+			<m_ObjectName text="ICON_CIVILIZATION_RL_INCA_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_RL_INCA_48"/>
+			<m_ObjectName text="ICON_CIVILIZATION_RL_INCA_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_RL_INCA_44"/>
+			<m_ObjectName text="ICON_CIVILIZATION_RL_INCA_44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_RL_INCA_36"/>
+			<m_ObjectName text="ICON_CIVILIZATION_RL_INCA_36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_RL_INCA_32"/>
+			<m_ObjectName text="ICON_CIVILIZATION_RL_INCA_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_RL_INCA_30"/>
+			<m_ObjectName text="ICON_CIVILIZATION_RL_INCA_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_RL_INCA_22"/>
+			<m_ObjectName text="ICON_CIVILIZATION_RL_INCA_22"/>
+		</Element>
+		
+<!-- #Leader -->
+		
+		<Element>
+			<m_EntryID text="ICON_LEADER_RL_PACHACUTI_CUSTOM"/>
+			<m_ObjectName text="ICON_LEADER_RL_PACHACUTI_CUSTOM"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_RL_PACHACUTI_CUSTOM_32"/>
+			<m_ObjectName text="ICON_LEADER_RL_PACHACUTI_CUSTOM_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_RL_PACHACUTI_CUSTOM_45"/>
+			<m_ObjectName text="ICON_LEADER_RL_PACHACUTI_CUSTOM_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_RL_PACHACUTI_CUSTOM_48"/>
+			<m_ObjectName text="ICON_LEADER_RL_PACHACUTI_CUSTOM_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_RL_PACHACUTI_CUSTOM_50"/>
+			<m_ObjectName text="ICON_LEADER_RL_PACHACUTI_CUSTOM_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_RL_PACHACUTI_CUSTOM_64"/>
+			<m_ObjectName text="ICON_LEADER_RL_PACHACUTI_CUSTOM_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_RL_PACHACUTI_CUSTOM_80"/>
+			<m_ObjectName text="ICON_LEADER_RL_PACHACUTI_CUSTOM_80"/>
+		</Element>
+		
+<!-- #Terrace Farm #Improvement-->
+
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_RL_TERRACE_FARM_256"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_RL_TERRACE_FARM_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_RL_TERRACE_FARM_38"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_RL_TERRACE_FARM_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_RL_TERRACE_FARM_44"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_RL_TERRACE_FARM_44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_RL_TERRACE_FARM_45"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_RL_TERRACE_FARM_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_RL_TERRACE_FARM_50"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_RL_TERRACE_FARM_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_RL_TERRACE_FARM_80"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_RL_TERRACE_FARM_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_RL_TERRACE_FARM_128"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_RL_TERRACE_FARM_128"/>
+		</Element>
+
+		
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

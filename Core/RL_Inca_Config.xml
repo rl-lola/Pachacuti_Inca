@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- RL_Inca_Config-->
+<!-- Author: Rohan -->
+<!-- DateCreated: 11/17/2017 11:49:22 AM -->
+<GameData>
+	<Players>
+		<Row>
+			<CivilizationType>CIVILIZATION_RL_INCA</CivilizationType>
+			<Portrait>LEADER_RL_PACHACUTI_CUSTOM_LOADING</Portrait>
+			<PortraitBackground>LEADER_MONTEZUMA_BACKGROUND</PortraitBackground>
+			<LeaderType>LEADER_RL_PACHACUTI_CUSTOM</LeaderType>
+			<LeaderName>Pachacuti</LeaderName>
+			<LeaderIcon>ICON_LEADER_RL_PACHACUTI_CUSTOM</LeaderIcon>
+			<LeaderAbilityIcon>ICON_LEADER_RL_PACHACUTI_CUSTOM</LeaderAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_RL_ROAD_TO_MACHU_PICCHU_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_RL_ROAD_TO_MACHU_PICCHU_DESCRIPTION</LeaderAbilityDescription>
+			<CivilizationName>Inca</CivilizationName>
+			<CivilizationAbilityName>LOC_TRAIT_RL_ROADRUNNERS_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_RL_ROADRUNNERS_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_RL_INCA</CivilizationAbilityIcon>
+			<CivilizationIcon>ICON_CIVILIZATION_RL_INCA</CivilizationIcon>
+		</Row>
+	</Players>
+
+	<PlayerItems>
+		<Row>
+			<CivilizationType>CIVILIZATION_RL_INCA</CivilizationType>
+			<LeaderType>LEADER_RL_PACHACUTI_CUSTOM</LeaderType>
+			<Type>BUILDING_RL_YACHAYWASI</Type>
+			<Icon>ICON_BUILDING_RL_YACHAYWASI</Icon>
+			<Name>LOC_BUILDING_RL_YACHAYWASI_NAME</Name>
+			<Description>LOC_BUILDING_RL_YACHAYWASI_DESCRIPTION</Description>
+			<SortIndex>20</SortIndex>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_RL_INCA</CivilizationType>
+			<LeaderType>LEADER_RL_PACHACUTI_CUSTOM</LeaderType>
+			<Type>IMPROVEMENT_RL_TERRACE_FARM</Type>
+			<Icon>ICON_IMPROVEMENT_RL_TERRACE_FARM</Icon>
+			<Name>LOC_IMPROVEMENT_RL_TERRACE_FARM_NAME</Name>
+			<Description>LOC_IMPROVEMENT_RL_TERRACE_FARM_DESCRIPTION</Description>
+			<SortIndex>30</SortIndex>
+		</Row>
+	</PlayerItems>
+</GameData>

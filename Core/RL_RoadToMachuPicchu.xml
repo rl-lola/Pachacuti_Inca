@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- RL_RoadToMachuPicchu -->
+<!-- Author: Rohan -->
+<!-- DateCreated: 11/17/2017 4:44:35 PM -->
+<GameData>
+	
+<!-- #Modifiers-->
+
+	<Types>
+		
+		<Row>
+			<Type>DYNAMICMODIFIER_ADD_MOVES_TO_CIVILIANS</Type>
+			<Kind>KIND_MODIFIER</Kind>
+		</Row>
+		
+	</Types>
+	
+
+	<TraitModifiers>
+		
+		<Row>
+			<TraitType>TRAIT_RL_ROAD_TO_MACHU_PICCHU</TraitType>
+			<ModifierId>MODIFIER_ADD_MOVES_TO_CIVILIANS</ModifierId>
+		</Row>
+		
+	</TraitModifiers>
+	
+
+	<DynamicModifiers>
+		
+		<Row>
+			<ModifierType>DYNAMICMODIFIER_ADD_MOVES_TO_CIVILIANS</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_UNITS</CollectionType>
+			<EffectType>EFFECT_ADJUST_UNIT_FRIENDLY_TERRITORY_START_MOVEMENT</EffectType>
+		</Row>
+		
+	</DynamicModifiers>
+	
+
+	<Modifiers>
+		
+		<Row>
+			<ModifierId>MODIFIER_ADD_MOVES_TO_CIVILIANS</ModifierId>
+			<ModifierType>DYNAMICMODIFIER_ADD_MOVES_TO_CIVILIANS</ModifierType>
+			<SubjectRequirementSetId>REQUIREMENT_UNIT_IS_CIVILIAN</SubjectRequirementSetId>
+		</Row>
+		
+	</Modifiers>
+
+	
+	<ModifierArguments>
+
+		<Row>
+			<ModifierId>MODIFIER_ADD_MOVES_TO_CIVILIANS</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		
+	</ModifierArguments>
+	
+<!-- #Requirements-->
+
+	<RequirementSets>
+		
+		<Row>
+			<RequirementSetId>REQUIREMENT_UNIT_IS_CIVILIAN</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		
+	</RequirementSets>
+
+	<Requirements>
+		
+		<Row>
+			<RequirementId>REQUIREMENT_UNIT_SETTLER</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+
+	</Requirements>
+
+	<RequirementArguments>
+		
+		<Row>
+			<RequirementId>REQUIREMENT_UNIT_SETTLER</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_SETTLER</Value>
+		</Row>
+
+	</RequirementArguments>
+
+	<RequirementSetRequirements>
+		
+		<Row>
+			<RequirementSetId>REQUIREMENT_UNIT_IS_CIVILIAN</RequirementSetId>
+			<RequirementId>REQUIREMENT_UNIT_SETTLER</RequirementId>
+		</Row>
+		
+		<Row>
+			<RequirementSetId>REQUIREMENT_UNIT_IS_CIVILIAN</RequirementSetId>
+			<RequirementId>REQUIREMENT_UNIT_IS_BUILDER</RequirementId>
+		</Row>
+
+	</RequirementSetRequirements>
+</GameData>

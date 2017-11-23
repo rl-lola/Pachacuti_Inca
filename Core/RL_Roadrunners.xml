@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- RL_Roadrunners -->
+<!-- Author: Rohan -->
+<!-- DateCreated: 11/17/2017 4:24:00 PM -->
+<GameData>
+	
+<!--#Modifiers -->
+
+	<Types>
+		<Row>
+			<Type>DYNAMICMODIFIER_ROADRUNNERS_INTERNAL_FOOD</Type>
+			<Kind>KIND_MODIFIER</Kind>
+		</Row>
+		<Row>
+			<Type>DYNAMICMODIFIER_ROADRUNNERS_TRADE_CAPACITY_CONSTRUCTION</Type>
+			<Kind>KIND_MODIFIER</Kind>
+		</Row>
+	</Types>
+	
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_RL_ROADRUNNERS</TraitType>
+			<ModifierId>MODIFIER_ROADRUNNERS_INTERNAL_FOOD</ModifierId>
+		</Row>
+
+		<Row>
+			<TraitType>TRAIT_RL_ROADRUNNERS</TraitType>
+			<ModifierId>MODIFIER_ROADRUNNERS_TRADE_CAPACITY_CONSTRUCTION</ModifierId>
+		</Row>
+	</TraitModifiers>
+	
+	<DynamicModifiers>
+		<Row>
+			<ModifierType>DYNAMICMODIFIER_ROADRUNNERS_INTERNAL_FOOD</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_ADJUST_TRADE_ROUTE_YIELD_PER_SPECIALTY_DISTRICT_FOR_DOMESTIC</EffectType>
+		</Row>
+
+		<Row>
+			<ModifierType>DYNAMICMODIFIER_ROADRUNNERS_TRADE_CAPACITY_CONSTRUCTION</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_ADJUST_TRADE_ROUTE_CAPACITY</EffectType>
+		</Row>
+	</DynamicModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_ROADRUNNERS_INTERNAL_FOOD</ModifierId>
+			<ModifierType>DYNAMICMODIFIER_ROADRUNNERS_INTERNAL_FOOD</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>MODIFIER_ROADRUNNERS_TRADE_CAPACITY_CONSTRUCTION</ModifierId>
+			<ModifierType>DYNAMICMODIFIER_ROADRUNNERS_TRADE_CAPACITY_CONSTRUCTION</ModifierType>
+			<SubjectRequirementSetId>REQUIREMENT_PLAYER_HAS_CONSTRUCTION</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_ROADRUNNERS_INTERNAL_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>MODIFIER_ROADRUNNERS_INTERNAL_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>MODIFIER_ROADRUNNERS_TRADE_CAPACITY_CONSTRUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	
+<!-- #Requirements-->
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>REQUIREMENT_PLAYER_HAS_CONSTRUCTION</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>REQUIREMENT_PLAYER_HAS_CONSTRUCTION</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_CONSTRUCTION</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_CONSTRUCTION</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_CONSTRUCTION</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_CONSTRUCTION</Value>
+		</Row>
+	</RequirementArguments>
+</GameData>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- RL_Yachaywasi -->
+<!-- Author: Rohan -->
+<!-- DateCreated: 11/18/2017 5:31:12 PM -->
+<GameData>
+
+<!-- #Types -->
+	
+	<Types>
+		<Row>
+			<Type>BUILDING_RL_YACHAYWASI</Type>
+			<Kind>KIND_BUILDING</Kind>
+		</Row>
+	</Types>
+
+<!-- #Building -->
+	
+	<Buildings>
+		<Row>
+			<BuildingType>BUILDING_RL_YACHAYWASI</BuildingType>
+			<Name>LOC_BUILDING_RL_YACHAYWASI_NAME</Name>
+			<PrereqTech>TECH_WRITING</PrereqTech>
+			<Cost>90</Cost>
+			<PrereqDistrict>DISTRICT_CAMPUS</PrereqDistrict>
+			<Description>LOC_BUILDING_RL_YACHAYWASI_DESCRIPTION</Description>
+			<PurchaseYield>YIELD_GOLD</PurchaseYield>
+			<AdvisorType>ADVISOR_TECHNOLOGY</AdvisorType>
+			<Maintenance>0</Maintenance>
+			<CitizenSlots>1</CitizenSlots>
+			<TraitType>TRAIT_RL_YACHAYWASI</TraitType>
+		</Row>
+	</Buildings>
+
+	<Building_GreatPersonPoints>
+		<Row>
+			<BuildingType>BUILDING_RL_YACHAYWASI</BuildingType>
+			<GreatPersonClassType>GREAT_PERSON_CLASS_GENERAL</GreatPersonClassType>
+			<PointsPerTurn>1</PointsPerTurn>
+		</Row>
+	</Building_GreatPersonPoints>
+
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_RL_YACHAYWASI</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_RL_YACHAYWASI</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>2</YieldChange>		
+		</Row>
+	</Building_YieldChanges>
+
+	<BuildingReplaces>
+		<Row>
+			<CivUniqueBuildingType>BUILDING_RL_YACHAYWASI</CivUniqueBuildingType>
+			<ReplacesBuildingType>BUILDING_LIBRARY</ReplacesBuildingType>
+		</Row>
+	</BuildingReplaces>
+</GameData>

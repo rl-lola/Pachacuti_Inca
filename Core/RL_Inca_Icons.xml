@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- RL_Inca_Icons -->
+<!-- Author: Rohan -->
+<!-- DateCreated: 11/19/2017 11:15:37 AM -->
+<GameData>
+
+	<IconTextureAtlases>
+		
+		<!--#Leader-->
+
+		<Row>
+			<Name>ICON_ATLAS_LEADER_RL_PACHACUTI_CUSTOM</Name>
+			<IconSize>256</IconSize>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+			<Filename>ICON_LEADER_RL_PACHACUTI_CUSTOM</Filename>
+		</Row>
+
+		<Row>
+			<Name>ICON_ATLAS_LEADER_RL_PACHACUTI_CUSTOM</Name>
+			<IconSize>45</IconSize>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+			<Filename>ICON_LEADER_RL_PACHACUTI_CUSTOM_45</Filename>
+		</Row>
+
+		<Row>
+			<Name>ICON_ATLAS_LEADER_RL_PACHACUTI_CUSTOM</Name>
+			<IconSize>80</IconSize>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+			<Filename>ICON_LEADER_RL_PACHACUTI_CUSTOM_80</Filename>
+		</Row>
+
+		<Row>
+			<Name>ICON_ATLAS_LEADER_RL_PACHACUTI_CUSTOM</Name>
+			<IconSize>64</IconSize>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+			<Filename>ICON_LEADER_RL_PACHACUTI_CUSTOM_64</Filename>
+		</Row>
+
+		<Row>
+			<Name>ICON_ATLAS_LEADER_RL_PACHACUTI_CUSTOM</Name>
+			<IconSize>50</IconSize>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+			<Filename>ICON_LEADER_RL_PACHACUTI_CUSTOM_50</Filename>
+		</Row>
+
+		<Row>
+			<Name>ICON_ATLAS_LEADER_RL_PACHACUTI_CUSTOM</Name>
+			<IconSize>48</IconSize>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+			<Filename>ICON_LEADER_RL_PACHACUTI_CUSTOM_48</Filename>
+		</Row>
+
+		<Row>
+			<Name>ICON_ATLAS_LEADER_RL_PACHACUTI_CUSTOM</Name>
+			<IconSize>32</IconSize>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+			<Filename>ICON_LEADER_RL_PACHACUTI_CUSTOM_32</Filename>
+		</Row>
+		
+<!-- #Civilization-->
+
+		<Row>
+			<Name>ICON_ATLAS_CIVILIZATION_RL_INCA</Name>
+			<IconSize>256</IconSize>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+			<Filename>ICON_CIVILIZATION_RL_INCA</Filename>
+		</Row>
+
+		<Row>
+			<Name>ICON_ATLAS_CIVILIZATION_RL_INCA</Name>
+			<IconSize>45</IconSize>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+			<Filename>ICON_CIVILIZATION_RL_INCA_COLOR</Filename>
+		</Row>
+
+		<Row>
+			<Name>ICON_ATLAS_CIVILIZATION_RL_INCA</Name>
+			<IconSize>200</IconSize>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+			<Filename>ICON_CIVILIZATION_RL_INCA_200</Filename>
+		</Row>
+
+		<Row>
+			<Name>ICON_ATLAS_CIVILIZATION_RL_INCA</Name>
+			<IconSize>80</IconSize>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+			<Filename>ICON_CIVILIZATION_RL_INCA_80</Filename>
+		</Row>
+
+		<Row>
+			<Name>ICON_ATLAS_CIVILIZATION_RL_INCA</Name>
+			<IconSize>64</IconSize>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+			<Filename>ICON_CIVILIZATION_RL_INCA_64</Filename>
+		</Row>
+
+		<Row>
+			<Name>ICON_ATLAS_CIVILIZATION_RL_INCA</Name>
+			<IconSize>50</IconSize>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+			<Filename>ICON_CIVILIZATION_RL_INCA_50</Filename>
+		</Row>
+
+		<Row>
+			<Name>ICON_ATLAS_CIVILIZATION_RL_INCA</Name>
+			<IconSize>48</IconSize>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+			<Filename>ICON_CIVILIZATION_RL_INCA_48</Filename>
+		</Row>
+
+		<Row>
+			<Name>ICON_ATLAS_CIVILIZATION_RL_INCA</Name>
+			<IconSize>44</IconSize>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+			<Filename>ICON_CIVILIZATION_RL_INCA_44</Filename>
+		</Row>
+
+		<Row>
+			<Name>ICON_ATLAS_CIVILIZATION_RL_INCA</Name>
+			<IconSize>36</IconSize>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+			<Filename>ICON_CIVILIZATION_RL_INCA_36</Filename>
+		</Row>
+
+
+		<Row>
+			<Name>ICON_ATLAS_CIVILIZATION_RL_INCA</Name>
+			<IconSize>32</IconSize>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+			<Filename>ICON_CIVILIZATION_RL_INCA_32</Filename>
+		</Row>
+
+
+		<Row>
+			<Name>ICON_ATLAS_CIVILIZATION_RL_INCA</Name>
+			<IconSize>30</IconSize>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+			<Filename>ICON_CIVILIZATION_RL_INCA_30</Filename>
+		</Row>
+
+
+		<Row>
+			<Name>ICON_ATLAS_CIVILIZATION_RL_INCA</Name>
+			<IconSize>22</IconSize>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+			<Filename>ICON_CIVILIZATION_RL_INCA_22</Filename>
+		</Row>
+
+
+
+		<!-- #Yachaywasi Building -->
+
+		<Row>
+			<Name>ICON_ATLAS_BUILDING_RL_YACHAYWASI</Name>
+			<IconSize>256</IconSize>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+			<Filename>ICON_BUILDING_RL_YACHAYWASI</Filename>
+		</Row>
+
+		<Row>
+			<Name>ICON_ATLAS_BUILDING_RL_YACHAYWASI</Name>
+			<IconSize>45</IconSize>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+			<Filename>ICON_BUILDING_RL_YACHAYWASI_45</Filename>
+		</Row>
+
+		<Row>
+			<Name>ICON_ATLAS_BUILDING_RL_YACHAYWASI</Name>
+			<IconSize>38</IconSize>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+			<Filename>ICON_BUILDING_RL_YACHAYWASI_38</Filename>
+		</Row>
+
+		<Row>
+			<Name>ICON_ATLAS_BUILDING_RL_YACHAYWASI</Name>
+			<IconSize>50</IconSize>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+			<Filename>ICON_BUILDING_RL_YACHAYWASI_50</Filename>
+		</Row>
+
+		<!-- #Terrace Farm #Improvement-->
+
+		<Row>
+			<Name>ICON_ATLAS_IMPROVEMENT_RL_TERRACE_FARM</Name>
+			<IconSize>256</IconSize>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+			<Filename>ICON_IMPROVEMENT_RL_TERRACE_FARM_256</Filename>
+		</Row>
+		<Row>
+			<Name>ICON_ATLAS_IMPROVEMENT_RL_TERRACE_FARM</Name>
+			<IconSize>128</IconSize>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+			<Filename>ICON_IMPROVEMENT_RL_TERRACE_FARM_128</Filename>
+		</Row>
+		<Row>
+			<Name>ICON_ATLAS_IMPROVEMENT_RL_TERRACE_FARM</Name>
+			<IconSize>80</IconSize>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+			<Filename>ICON_IMPROVEMENT_RL_TERRACE_FARM_80</Filename>
+		</Row>
+		<Row>
+			<Name>ICON_ATLAS_IMPROVEMENT_RL_TERRACE_FARM</Name>
+			<IconSize>50</IconSize>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+			<Filename>ICON_IMPROVEMENT_RL_TERRACE_FARM_50</Filename>
+		</Row>
+		<Row>
+			<Name>ICON_ATLAS_IMPROVEMENT_RL_TERRACE_FARM</Name>
+			<IconSize>45</IconSize>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+			<Filename>ICON_IMPROVEMENT_RL_TERRACE_FARM_45</Filename>
+		</Row>
+		<Row>
+			<Name>ICON_ATLAS_IMPROVEMENT_RL_TERRACE_FARM</Name>
+			<IconSize>44</IconSize>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+			<Filename>ICON_IMPROVEMENT_RL_TERRACE_FARM_44</Filename>
+		</Row>
+		<Row>
+			<Name>ICON_ATLAS_IMPROVEMENT_RL_TERRACE_FARM</Name>
+			<IconSize>38</IconSize>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+			<Filename>ICON_IMPROVEMENT_RL_TERRACE_FARM_38</Filename>
+		</Row>
+	
+	</IconTextureAtlases>
+	
+<!-- #Definitions -->
+
+	<IconDefinitions>
+
+		<Row>
+			<Name>ICON_LEADER_RL_PACHACUTI_CUSTOM</Name>
+			<Atlas>ICON_ATLAS_LEADER_RL_PACHACUTI_CUSTOM</Atlas>
+			<Index>0</Index>
+		</Row>
+
+		<Row>
+			<Name>ICON_CIVILIZATION_RL_INCA</Name>
+			<Atlas>ICON_ATLAS_CIVILIZATION_RL_INCA</Atlas>
+			<Index>0</Index>
+		</Row>
+
+		<Row>
+			<Name>ICON_BUILDING_RL_YACHAYWASI</Name>
+			<Atlas>ICON_ATLAS_BUILDING_RL_YACHAYWASI</Atlas>
+			<Index>0</Index>
+		</Row>
+
+		<Row>
+			<Name>ICON_IMPROVEMENT_RL_TERRACE_FARM</Name>
+			<Atlas>ICON_ATLAS_IMPROVEMENT_RL_TERRACE_FARM</Atlas>
+			<Index>0</Index>
+		</Row>
+
+	</IconDefinitions>
+
+</GameData>
